@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+a:hover{
+    color: white;
+    transform: scale(1.2);
+    text-decoration: overline;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(34, 120, 196);
+    height: 30px;
+    width: 100vw;
+    align-items: center;
+}
+
+main{
+    margin-top: 40px;
+}
+
+.container{
+    background-color: rgb(34, 120, 196);
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.module{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+fieldset{
+    padding: 20px;
+    width: 100%;
+}
+
+fieldset div{
+    padding: 10px;
+}
+
+input{
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid red;
+    outline: none;
+}
+select{
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid red;
+    outline: none;
+}
+
+.submitbtn{
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: inherit;
+    border: inherit;
+    cursor: pointer;
+}
+
+.submitbtn:hover{
+    color: white;
+    text-decoration: overline;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(34, 120, 196);
+    height: 30px;
+    width: 100vw;
+    align-items: center;
+}
